@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\PMDM02_Revisada\EjemploTabs\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a098584f9518f442dab2b79de8e3ecc83618fb76">
+        <dex dex="C:\Users\usuario\Desktop\PMDM02_Revisada\EjemploTabs\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_90afd39f77c0508e711ad727301b50ea96c7c10c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\PMDM02_Revisada\EjemploTabs\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5254fd5aca5dd09e6940b271a69cc623731718d">
+        <dex dex="C:\Users\usuario\Desktop\PMDM02_Revisada\EjemploTabs\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4a155f0819cd98eef9a50ac66d6c13d30a53f39e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\PMDM02_Revisada\EjemploTabs\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308">
+        <dex dex="C:\Users\usuario\Desktop\PMDM02_Revisada\EjemploTabs\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_669bf46f2c7660fb4d982313f0177dea8389f482\classes.dex" />
+    </item>
+
+</items>

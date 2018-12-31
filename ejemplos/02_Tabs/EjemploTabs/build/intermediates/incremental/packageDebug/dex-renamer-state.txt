@@ -1,0 +1,7 @@
+#Wed Nov 02 13:28:02 CET 2016
+base.0=C\:\\Users\\usuario\\Desktop\\PMDM02_Revisada\\EjemploTabs\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_90afd39f77c0508e711ad727301b50ea96c7c10c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\usuario\\Desktop\\PMDM02_Revisada\\EjemploTabs\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4a155f0819cd98eef9a50ac66d6c13d30a53f39e\\classes.dex
+base.1=C\:\\Users\\usuario\\Desktop\\PMDM02_Revisada\\EjemploTabs\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4a155f0819cd98eef9a50ac66d6c13d30a53f39e
+file.0=C\:\\Users\\usuario\\Desktop\\PMDM02_Revisada\\EjemploTabs\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_90afd39f77c0508e711ad727301b50ea96c7c10c\\classes.dex

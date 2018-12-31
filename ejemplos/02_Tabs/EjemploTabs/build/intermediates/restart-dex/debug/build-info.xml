@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="22"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="16538536752047"
+    token="-619303923530581584"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="136" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="77" />
+    <task
+        name="verifier"
+        duration="16" />
+
+    <artifact
+        location="C:\Users\usuario\Desktop\PMDM02_Revisada\EjemploTabs\build\outputs\apk\EjemploTabs-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="16538536752047"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\usuario\Desktop\PMDM02_Revisada\EjemploTabs\build\outputs\apk\EjemploTabs-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

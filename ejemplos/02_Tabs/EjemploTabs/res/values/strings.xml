@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejemplo Tabs</string>
+    <string name="action_settings">Settings</string>
+    <string name="recibidas">Aquí aparecerán las llamadas recibidas</string>
+    <string name="enviadas">Aquí aparecerán las llamadas realizadas</string>
+    <string name="perdidas">Aquí aparecerán las llamadas perdidas</string>
+
+</resources>
