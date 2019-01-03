@@ -1,0 +1,18 @@
+<TextView
+    android:text = "Hapy Birthday!"
+    android:background = "@android:color/dark_gray"
+    android:layout_width = "150dp"
+    android:layout_height = "75dp" />
+
+<TextView
+    android:id="@+id/title_text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/my_photos"
+    android:textAppearance="?android:textAppearanceLarge"
+    android:background="#191970"
+    android:textColor="#4689C8"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:textAllCaps="true"
+    android:textAppearance="?android:textAppearanceLarge" />

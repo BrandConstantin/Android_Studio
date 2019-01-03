@@ -1,0 +1,17 @@
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RadioButton
+    android:id="@+id/yes_radio_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/yes"
+    android:textAppearance="?android:textAppearanceMedium" />
+    <RadioButton
+    android:id="@+id/no_radio_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/no"
+    android:textAppearance="?android:textAppearanceMedium" />
+</RadioGroup>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HolaMundo</string>
+    <string name="hello_world">Bienvenido a Android</string>
+    <string name="boton">Púlsame</string>
+    <string name="despedida">Hasta luego</string>
+    <string name="regresar">Volver Actividad Principal</string>
+    <string name="opc1">Opción 1</string>
+    <string name="opc2">Opción 2</string>
+    <string name="opc11">Opción 1.1</string>
+    <string name="opc12">Opción 1.2</string>
+    <string name="opCtx1">Opción contextual 1</string>
+    <string name="opCtx2">Opción contextual 2</string>
+</resources>

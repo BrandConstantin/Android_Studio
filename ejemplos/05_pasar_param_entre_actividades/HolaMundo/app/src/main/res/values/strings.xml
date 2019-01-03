@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HolaMundo</string>
+    <string name="hello_world">Bienvenido a Android</string>
+    <string name="boton">Púlsame</string>
+    <string name="despedida">Hasta luego</string>
+    <string name="regresar">Volver Actividad Principal</string>
+</resources>

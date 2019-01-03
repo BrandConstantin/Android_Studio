@@ -1,0 +1,15 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/opcion1" android:title="@string/opc1">
+        <menu>
+            <item android:id="@+id/opcionSub1"
+                android:title="@string/opc11"
+                android:icon="@android:drawable/btn_star_big_on"/>
+            <item android:id="@+id/opcionSub2"
+                android:title="@string/opc12"
+                android:icon="@android:drawable/sym_action_call" />
+        </menu>
+    </item>
+    <item android:id="@+id/opcion2" android:title="@string/opc2"
+        android:icon="@android:drawable/ic_menu_add"></item>
+</menu>

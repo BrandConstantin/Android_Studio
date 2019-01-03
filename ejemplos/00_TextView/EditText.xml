@@ -1,0 +1,6 @@
+<EditText
+    android:id="@+id/album_description_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/album_description"
+    android:inputType="textMultiLine" />
