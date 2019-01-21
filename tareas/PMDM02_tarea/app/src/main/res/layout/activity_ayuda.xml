@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ayuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="@string/ayuda"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:id="@+id/scrollAyuda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="5dp"
+            android:paddingBottom="100dp">
+
+            <TextView
+                android:id="@+id/info_ayuda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/info_ayuda" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/boton5"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/scrollAyuda"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="-80dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/regresar"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

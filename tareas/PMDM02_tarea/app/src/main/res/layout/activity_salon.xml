@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UselessParent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="@string/salon"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28sp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp">
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check1" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_height="150dp"
+                    android:layout_width="wrap_content"
+                    android:contentDescription="@string/salon_picasso"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    app:srcCompat="@drawable/descarga" />
+
+            </TableRow>
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check2" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:contentDescription="@string/salon_velasquez"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    app:srcCompat="@drawable/descarga1" />
+
+            </TableRow>
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check2" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:contentDescription="@string/salon_goya"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    app:srcCompat="@drawable/descarga2" />
+
+            </TableRow>
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check2" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:contentDescription="@string/salon_murillo"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    app:srcCompat="@drawable/descarga3" />
+
+            </TableRow>
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check2" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:contentDescription="@string/salon_sorolla"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    app:srcCompat="@drawable/descarga4" />
+
+            </TableRow>
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check2" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:contentDescription="@string/salon_dali"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    app:srcCompat="@drawable/descarga5" />
+
+            </TableRow>
+        </TableLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="500dp"
+        android:background="@color/colorPrimary"
+        android:padding="6dp"
+        android:text="@string/regresar"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</RelativeLayout>

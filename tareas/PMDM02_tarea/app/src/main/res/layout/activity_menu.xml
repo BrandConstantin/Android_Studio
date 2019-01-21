@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pantalla2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="@string/menu"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28sp" />
+
+    <TableLayout
+        android:id="@+id/tablespiner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/opc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opc1" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/opc2"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="@string/opc2" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="281dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/opc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opc3" />
+
+            <Spinner android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/boton3"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tablespiner"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="440dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/regresar"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</RelativeLayout>

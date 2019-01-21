@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">GoodEating</string>
+    <string name="bienvenido">Bienvenido a GoodEating</string>
+    <string name="registro">REGISTRATE</string>
+    <string name="salon">SALON</string>
+    <string name="menu">MENÚ</string>
+    <string name="pedido">PEDIDO</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="acerca">Acerca de...</string>
+    <string name="regresar">Volver</string>
+    <string name="volver">Volver</string>
+    <string name="nombre">Nombre: </string>
+    <string name="correo">Correo: </string>
+    <string name="telefono">Teléfono: </string>
+    <string name="check1">Picasso</string>
+    <string name="salon_picasso">Saló 1 -> Picasso</string>
+    <string name="check2">Velásquez</string>
+    <string name="salon_velasquez">Saló 1 -> Velásquez</string>
+    <string name="check3">Goya</string>
+    <string name="salon_goya">Saló 1 -> Goya</string>
+    <string name="check4">Murillo</string>
+    <string name="salon_murillo">Saló 1 -> Murillo</string>
+    <string name="check5">Sorolla</string>
+    <string name="salon_sorolla">Saló 1 -> Sorolla</string>
+    <string name="check6">Dalí</string>
+    <string name="salon_dali">Saló 1 -> Dalí</string>
+    <string name="appAuthor">Constantin Brindusoiu</string>
+    <string name="appCopyright">"@Copyright 2019"</string>
+    <string name="info_ayuda">
+        "Español"
+        "La aplicación GoodEating te ayudara a escoger y reservar un sitio a comer en nuestro restaurante. Los pasos a seguir son:
+
+        - registrarte solo poniendo tu nombre, teléfono y correo electrónico
+        - escoger un salón de los 6 que disponemos (Picasso, Velázquez, Goya, Murillo, Sorolla y Dalí)
+        - escoger el menú (primer plato, segundo plato, tercer plato)
+
+        Y sin lista de espera te sentarás y sabremos lo que has pedido de comer.
+
+        En el apartado "Pedido" podrás ver información sobre tu pedido, sobre los datos que has introducido como usuario, el nombre de salón escogido y los platos elegidos."
+
+
+        "English"
+        "The GoodEating application will help you choose and reserve a place to eat in our restaurant." The steps to follow are:
+
+        - register only by entering your name, phone and email
+        - choose a room from the 6 that we have (Picasso, Velázquez, Goya, Murillo, Sorolla and Dalí)
+        - choose the menu (first course, second course, third course)
+
+        And without a waiting list you will sit down and we will know what you have asked to eat.
+
+        In the section "Order" you can see information about your order, about the data you have entered as a user, the name of the chosen room and the chosen dishes. "
+
+
+        "Romana"
+        "Aplicația GoodEating vă va ajuta să alegeți și să rezervați un loc unde puteți mânca în restaurantul nostru". Pașii de urmat sunt:
+
+        - înregistrați numai prin introducerea numelui, a telefonului și a e-mailului
+        - alegeți o cameră din cele 6 pe care le avem (Picasso, Velázquez, Goya, Murillo, Sorolla și Dalí)
+        - alegeți meniul (primul curs, al doilea curs, al treilea curs)
+
+        Și fără o listă de așteptare, vă veți așeza și vom ști ce ați cerut să mâncați.
+
+        În secțiunea "Comandă" puteți vedea informații despre comanda dvs., despre datele pe care le-ați introdus ca utilizator, numele camerei alese și mâncărurile alese. "
+
+
+        "Deutschland"
+        "Die GoodEating-Anwendung hilft Ihnen bei der Auswahl und Reservierung eines Platzes in unserem Restaurant." Die folgenden Schritte sind:
+
+        - Registrieren Sie sich nur, indem Sie Ihren Namen, Ihr Telefon und Ihre E-Mail-Adresse eingeben
+        - wählen Sie ein Zimmer aus den 6 Zimmern aus (Picasso, Velázquez, Goya, Murillo, Sorolla und Dalí)
+        - Wählen Sie das Menü (erster Gang, zweiter Gang, dritter Gang)
+
+        Und ohne eine Warteliste setzen Sie sich und wir wissen, was Sie essen wollten.
+
+        Im Abschnitt "Bestellung" können Sie Informationen zu Ihrer Bestellung, zu den von Ihnen als Benutzer eingegebenen Daten, den Namen des ausgewählten Zimmers und die ausgewählten Gerichte sehen. "
+        "Die GoodEating-Anwendung hilft Ihnen bei der Auswahl und Reservierung eines Platzes in unserem Restaurant." Die folgenden Schritte sind:
+
+        - Registrieren Sie sich nur, indem Sie Ihren Namen, Ihr Telefon und Ihre E-Mail-Adresse eingeben
+        - wählen Sie ein Zimmer aus den 6 Zimmern aus (Picasso, Velázquez, Goya, Murillo, Sorolla und Dalí)
+        - Wählen Sie das Menü (erster Gang, zweiter Gang, dritter Gang)
+
+        Und ohne eine Warteliste setzen Sie sich und wir wissen, was Sie essen wollten.
+
+        Im Abschnitt "Bestellung" können Sie Informationen zu Ihrer Bestellung, zu den von Ihnen als Benutzer eingegebenen Daten, den Namen des ausgewählten Zimmers und die ausgewählten Gerichte sehen. "
+    </string>
+    <string name="opc1">Primer Plato</string>
+    <string name="opc2">Segundo Plato</string>
+    <string name="opc3">Postre</string>
+    <string-array name="plato1">
+        <item>Plato 1</item>
+        <item>Plato 2</item>
+        <item>Plato 3</item>
+        <item>Plato 4</item>
+        <item>Plato 5</item>
+    </string-array>
+</resources>
