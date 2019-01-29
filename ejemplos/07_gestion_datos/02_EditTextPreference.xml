@@ -1,0 +1,5 @@
+<EditTextPreference
+android:key="nombre"
+android:title="Nombre de usuario"
+android:summary="Introduce aqui tu nombre"
+android:dialogTitle="Nombre" />

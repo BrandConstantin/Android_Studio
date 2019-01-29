@@ -1,0 +1,7 @@
+<MultiSelectListPreference
+android:key="mapa"
+android:title="Mapas"
+android:summary="Selecciona los mapas por donde pasar"
+android:dialogTitle="Elige mapas:"
+android:entries="@array/mapas"
+android:entryValues="@array/codigomapas />

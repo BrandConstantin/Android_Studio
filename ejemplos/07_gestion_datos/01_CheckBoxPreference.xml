@@ -1,0 +1,4 @@
+<CheckBoxPreference
+android:key="rebote"
+android:title="Rebote"
+android:summary="La bola rebotará en la pantalla" />

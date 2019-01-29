@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EjemploPrefFragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Ejemplo de Preferencias utilizando la clase PreferenceFragment</string>
+    <string name="boton">Preferencias</string>
+
+</resources>

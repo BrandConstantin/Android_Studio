@@ -1,0 +1,7 @@
+<ListPreference
+android:key="velocidad"
+android:title="Velocidad"
+android:summary="Selecciona la velocidad de la bola"
+android:dialogTitle="Elige velocidad"
+android:entries="@array/velocidad"
+android:entryValues="@array/codigovelocidad" />
