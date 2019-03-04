@@ -2,10 +2,10 @@
     <string name="app_name">Restaurante</string>
     <string name="la_lobera">La Lobera</string>
     <string name="button">Button</string>
-    <string name="registro">Registro</string>
-    <string name="sal_n">Salón</string>
-    <string name="men">Menú</string>
-    <string name="pedido">Pedido</string>
+    <string name="registro">Registration</string>
+    <string name="sal_n">Saloon</string>
+    <string name="men">Menu</string>
+    <string name="pedido">Order</string>
     <string name="Principal" />
     <string name="Ayuda" />
     <string name="acerca_de">Acerca de...</string>

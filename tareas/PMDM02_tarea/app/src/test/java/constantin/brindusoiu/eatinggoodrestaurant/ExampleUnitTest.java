@@ -1,4 +1,4 @@
-package constantin.brindusoiu.goodeating;
+package constantin.brindusoiu.eatinggoodrestaurant;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="constantin.brindusoiu.goodeating">
+    package="constantin.brindusoiu.eatinggoodrestaurant">
 
     <application
         android:allowBackup="true"
@@ -16,12 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegistroActivity"></activity>
-        <activity android:name=".SalonActivity"></activity>
-        <activity android:name=".AcercaActivity"></activity>
-        <activity android:name=".AyudaActivity"></activity>
-        <activity android:name=".MenuActivity"></activity>
-        <activity android:name=".PedidoActivity"></activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Registro" />
+        <activity android:name=".Salon" />
+        <activity android:name=".Menus" />
+        <activity android:name=".Pedido" />
+        <activity android:name=".AcercaDe" />
+        <activity android:name=".Ayuda"></activity>
     </application>
 
 </manifest>

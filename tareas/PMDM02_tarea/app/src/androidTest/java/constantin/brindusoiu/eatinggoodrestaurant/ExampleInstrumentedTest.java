@@ -1,4 +1,4 @@
-package constantin.brindusoiu.goodeating;
+package constantin.brindusoiu.eatinggoodrestaurant;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("constantin.brindusoiu.goodeating", appContext.getPackageName());
+        assertEquals("constantin.brindusoiu.eatinggoodrestaurant", appContext.getPackageName());
     }
 }
