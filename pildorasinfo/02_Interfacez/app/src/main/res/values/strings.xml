@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">01_Interfacez</string>
+    <string name="contador">Contador: </string>
+    <string name="incrementar">incrementar</string>
+    <string name="resetear">Resetear</string>
+    <string name="descrementar">Descrementar</string>
+</resources>

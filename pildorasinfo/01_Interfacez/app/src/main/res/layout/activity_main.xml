@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/contadorTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="227dp"
+        android:text="@string/contador"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/incrementar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/resetear"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/darker_gray"
+        android:text="@string/resetear"
+        app:layout_constraintBottom_toTopOf="@+id/descrementar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/incrementar"
+        android:onClick="reseteaContador"/>
+
+    <Button
+        android:id="@+id/incrementar"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/incrementar"
+        app:layout_constraintBottom_toTopOf="@+id/resetear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contadorTexto"
+        android:onClick="incrementarContador"/>
+
+    <Button
+        android:id="@+id/descrementar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/descrementar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resetear"
+        android:onClick="decrementarContador"/>
+</android.support.constraint.ConstraintLayout>
