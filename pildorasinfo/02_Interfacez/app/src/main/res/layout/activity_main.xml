@@ -48,7 +48,12 @@
             android:background="@android:color/holo_green_dark"
             android:onClick="incrementarContador"
             android:text="@string/incrementar"
+            android:textSize="60dp"
             app:layout_constraintBottom_toTopOf="@+id/resetear" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/descrementar"
@@ -59,6 +64,7 @@
             android:background="@android:color/holo_red_dark"
             android:onClick="decrementarContador"
             android:text="@string/descrementar"
+            android:textSize="60dp"
             app:layout_constraintTop_toBottomOf="@+id/resetear" />
     </LinearLayout>
 
