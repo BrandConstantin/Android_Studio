@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="constantin.brindusoiu.a04_edittext_checkbox">
+    package="constantin.brindusoiu.a05_eventos">
 
     <application
         android:allowBackup="true"

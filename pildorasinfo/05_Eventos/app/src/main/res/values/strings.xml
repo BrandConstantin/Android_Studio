@@ -1,10 +1,9 @@
 <resources>
-    <string name="app_name">04_EditText_CheckBox</string>
+    <string name="app_name">05_Eventos</string>
     <string name="contador">Contador: </string>
     <string name="incrementar">+</string>
     <string name="resetear">Resetear</string>
     <string name="descrementar">-</string>
-    <string name="editTextNumber">Nº</string>
-    <string name="_0">0</string>
+    <string name="editTextNumber">0</string>
     <string name="deshabilitar_descrementar">Deshabilitar descrementar</string>
 </resources>

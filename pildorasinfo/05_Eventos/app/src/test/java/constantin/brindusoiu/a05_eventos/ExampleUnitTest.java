@@ -1,4 +1,4 @@
-package constantin.brindusoiu.a01_interfacez;
+package constantin.brindusoiu.a05_eventos;
 
 import org.junit.Test;
 

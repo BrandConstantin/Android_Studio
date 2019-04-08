@@ -1,4 +1,4 @@
-package constantin.brindusoiu.a01_interfacez;
+package constantin.brindusoiu.a04_edittext_checkbox;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("constantin.brindusoiu.a01_interfacez", appContext.getPackageName());
+        assertEquals("constantin.brindusoiu.a04_edittext_checkbox", appContext.getPackageName());
     }
 }
