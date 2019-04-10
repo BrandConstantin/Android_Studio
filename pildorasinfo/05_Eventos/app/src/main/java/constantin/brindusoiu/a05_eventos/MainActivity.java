@@ -3,7 +3,9 @@ package constantin.brindusoiu.a05_eventos;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -21,6 +23,23 @@ public class MainActivity extends AppCompatActivity {
         textoResultado = (TextView) findViewById(R.id.contadorTexto);
 
         contador = 0;
+
+        //cuando se pulsa ok se resetea el texto
+        EventoTeclado teclado = new EventoTeclado();
+        EditText num_resetea = (EditText) findViewById(R.id.editTextNumber);
+        num_resetea.setOnEditorActionListener(teclado);
+    }
+
+    //cuando se pulsa el ok en teclado para ocultarlo y resetear el contador
+    class EventoTeclado implements TextView.OnEditorActionListener{
+
+        @Override
+        public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+            if(actionId == EditorInfo.IME_ACTION_DONE){
+                reseteaContador(null);
+            }
+            return false;
+        }
     }
 
     public void incrementarContador(View vista){
