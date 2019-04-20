@@ -1,0 +1,4 @@
+1. creación de idiomas
+2. creación de landscape
+3. creación de iconos con Android Studio Assets
+4. insertar imágen desde java, solo se visualiza en el emulador
